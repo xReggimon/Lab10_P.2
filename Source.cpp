@@ -11,7 +11,7 @@ int count_words(string str);
 int main() {
 
 	string line1 = "Moo.";
-	string line2 = "Today is October 26.";
+	string line2 = "Today is October     26.";
 	string line3 = "I don't give a Holstein for programmers that can only spell a variable one way. (Dr. Stephany)";
 	cout << "Amount of letters for line 1: " << count_letters(line1) << endl;
 	cout << "Amount of letters for line 2: " << count_letters(line2) << endl;
